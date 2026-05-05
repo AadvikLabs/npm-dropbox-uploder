@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start": "node demo/app.js",
+    "build": "echo \"No build step required for vanilla JS\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
