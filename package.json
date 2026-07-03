@@ -1,4 +1,35 @@
 {
+  "name": "@aadvik-teklabs/dropbox-uploader",
+  "version": "1.0.1",
+  "description": "Cloud storage uploader with Express routes and service wrapper (currently backed by Box SDK)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node demo/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dropbox",
+    "box",
+    "upload",
+    "cloud-storage",
+    "express",
+    "multer"
+  ],
+  "author": "Aadvik Labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AadvikLabs/npm-dropbox-uploder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AadvikLabs/npm-dropbox-uploder/issues"
+  },
+  "homepage": "https://github.com/AadvikLabs/npm-dropbox-uploder#readme",
   "dependencies": {
     "box-node-sdk": "^4.8.0",
     "cors": "^2.8.6",
@@ -6,10 +37,5 @@
     "express": "^5.2.1",
     "multer": "^2.1.1",
     "open": "^11.0.0"
-  },
-  "scripts": {
-    "start": "node demo/app.js",
-    "build": "echo \"No build step required for vanilla JS\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
